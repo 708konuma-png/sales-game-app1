@@ -1,0 +1,23 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Secret and local backup files
+*.env.local
+*.env.*.local
+*.secret
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# Logs and local debug output
+*.log
+logs/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
